@@ -1,4 +1,4 @@
-# Thanks for stopping by! 
+# Hello!
 
 I'm a research engineer, physicist, and biotechnologist. I want to understand the world in the deepest possible sense by connecting ideas across fields. 
 
@@ -12,3 +12,5 @@ A few other facts about me:
 - Intrigued by biology, I decided to study biotechnology at Cambridge University. 
 - I graduated from Oxford University with a First class degree in Physics.
 - I broke an [Oxford University Swimming Club record](https://www.ousc.info/records/mens-sc-records/) and received two [Full Blues](https://www.sport.ox.ac.uk/blues-awards).
+
+
