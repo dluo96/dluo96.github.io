@@ -3,61 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Me – [Your Name]</title>
+  <title>Daniel Luo</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 700px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
       color: #222;
     }
-    img {
-      display: block;
-      max-width: 150px;
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .sidebar {
+      flex: 0 0 250px;
+      padding-right: 40px;
+      border-right: 1px solid #eee;
+    }
+    .sidebar img {
+      width: 120px;
       border-radius: 50%;
-      margin: 0 auto 30px;
+      display: block;
+      margin-bottom: 20px;
     }
-    h1 {
-      text-align: center;
+    .sidebar h2 {
+      margin: 0;
     }
-    .footer {
-      margin-top: 40px;
-      text-align: center;
+    .sidebar p {
+      font-size: 0.95em;
+      color: #555;
+    }
+    .sidebar a {
+      display: block;
+      margin-top: 10px;
+      color: #0366d6;
+      text-decoration: none;
       font-size: 0.9em;
     }
-    a {
-      color: #444;
-      text-decoration: none;
-      margin: 0 10px;
+    .main {
+      flex: 1;
+      padding-left: 40px;
+    }
+    .main h1 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .main p, .main ul {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+    .main ul {
+      padding-left: 20px;
     }
   </style>
 </head>
 <body>
 
-  <img src="img/headshot.png" alt="Daniel Luo" />
+  <div class="container">
+    <div class="sidebar">
+      <img src="img/headshot.png" alt="Daniel Luo" />
+      <h2>Daniel Luo</h2>
+      <p>Research Engineer, Physicist, and Biotechnologist</p>
+      <a href="https://github.com/dluo96" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/danluo1996/" target="_blank">LinkedIn</a>
+    </div>
 
-  <h1>Hi there!</h1>
+    <div class="main">
+      <h1>Hello!</h1>
+      <p>I'm Daniel. I'm a research engineer, physicist, and biotechnologist. I want to understand the world, in the deepest possible sense, by connecting ideas across different fields.</p>
 
-  <p>I'm a research engineer, physicist, and biotechnologist. I want to understand the world, in the deepest possible sense, by connecting ideas across different fields.</p>
+      <p>At InstaDeep/BioNTech, I helped develop generative models for mRNA vaccines (our work was published at NeurIPS). I also helped scale model training via GPU profiling and optimization. Before that, I was a key contributor to Jumanji, a suite of reinforcement learning environments written in JAX. We published this work at ICLR.</p>
 
-  <p>At InstaDeep/BioNTech, I helped develop generative models for mRNA vaccines (our work was published at NeurIPS). I also helped scale model training via GPU profiling and optimization. Before that, I was a key contributor to Jumanji, a suite of reinforcement learning environments written in JAX. We published this work at ICLR.</p>
+      <p>At Datatonic, I worked directly with clients to implement end-to-end solutions on Google Cloud. This included developing an open source MLOps template in collaboration with Google Cloud. As a technical advisor for prospective customers, I also helped scope enterprise contracts.</p>
 
-  <p>At Datatonic, I worked directly with clients to implement end-to-end solutions on Google Cloud. This included developing an open source MLOps template in collaboration with Google Cloud. As a technical advisor for prospective customers, I also helped scope enterprise contracts.</p>
-
-  <p>A few other facts about me:</p>
-  <ul>
-    <li>I won the Danish Physics Olympiad. Then, I represented Denmark at the International Physics Olympiad (IPhO).</li>
-    <li>I studied biotech at Cambridge University.</li>
-    <li>I graduated from Oxford University with a First class Physics degree.</li>
-    <li>I broke an Oxford University Swimming Club record and received two Full Blues.</li>
-    <li>Recently, I've been learning CUDA and Triton so I can write custom GPU kernels.</li>
-  </ul>
-
-  <div class="footer">
-    <a href="https://github.com/dluo96" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/danluo1996/" target="_blank">LinkedIn</a>
+      <p>A few other facts about me:</p>
+      <ul>
+        <li>I won the Danish Physics Olympiad. Then, I represented Denmark at the International Physics Olympiad (IPhO).</li>
+        <li>I studied biotech at Cambridge University.</li>
+        <li>I graduated from Oxford University with a First class Physics degree.</li>
+        <li>I broke an Oxford University Swimming Club record and received two Full Blues.</li>
+        <li>Recently, I've been learning CUDA and Triton so I can write custom GPU kernels.</li>
+      </ul>
+    </div>
   </div>
 
 </body>
